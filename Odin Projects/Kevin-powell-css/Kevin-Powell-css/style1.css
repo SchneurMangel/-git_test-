@@ -1,0 +1,31 @@
+body{
+   background-color: black; 
+   color: aqua;
+   font-size: 21px;
+}
+
+p{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top-section{
+    background-color: black;
+}
+
+.intro{
+    font-size: 30px;
+}
+
+.highlight{
+    background-color: rgb(171, 171, 101);
+}
+
+.bottom-section{
+    background-color: rgb(171, 164, 164);
+    color: black;
+}
+
+.accent-color{
+    color: red;
+}
