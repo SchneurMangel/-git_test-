@@ -29,3 +29,20 @@ p{
 .accent-color{
     color: red;
 }
+ /*
+ margin:emty spac around element
+ border:a border/stroke/around the element
+ padding:empty space with background around my element
+ all of these add on top and widths and height
+ */
+
+.box{
+    background:pink;
+    width: 300px;
+
+    margin-top: 50px;
+    border-width: 5px;
+    border-color: aqua;
+
+
+}
