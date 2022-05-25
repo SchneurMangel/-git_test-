@@ -1,0 +1,12 @@
+body{
+background-image: url(../odin-links-and-images/Images/FamilyPicture.jpeg);
+background-size: cover;
+}
+
+header{
+ text-align: center;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ font-weight: lighter;
+ text-shadow: 15px 15px 27px white;
+ color:black;
+}
