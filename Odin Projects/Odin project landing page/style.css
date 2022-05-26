@@ -1,54 +1,82 @@
-body{
-background-color: black;
-color: white;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
-text-align: center;
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- text-shadow: 15px 15px 27px white;
- color:white;
+body {
+    background-color: black;
+    color: white;
 }
 
-.box{
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 15px 15px 27px white;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#familyPicture {
+    width: 500px;
+}
+
+.box>div {
+    max-width: 200px;
+}
+
+.box {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
-.one{
-    flex:1;
-    width: 10px;
-    height: auto;
-}
-.two{
-    flex:1;
-    width: 10px;
-    height: auto;
-    
-}
-.three{
-    flex:1;
-    width: 10px;
-    height: auto;
-    
-}
-.four{
-    flex:1;
-    width: 10px;
-    height: auto;
-    
-}
-.five{
-    flex:1;
-    width: 10px;
-    height: auto;
-    
-}
-.six{
-    flex:1;
-    width: 10px;
-    height: auto;
-    
+    justify-content: center;
 }
 
-    
+.one {
+    flex: 1;
+    width: 10px;
+    height: auto;
+}
+
+.two {
+    flex: 2;
+    width: 10px;
+    height: auto;
+
+}
+
+.three {
+    flex: 3;
+
+    width: 10px;
+    height: auto;
+
+}
+
+.four {
+    flex: 4;
+
+    width: 10px;
+    height: auto;
+
+}
+
+.five {
+    flex: 5;
+
+    width: 10px;
+    height: auto;
+
+}
+
+.six {
+    flex: 6;
+
+    width: 10px;
+    height: auto;
+
+}
