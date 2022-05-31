@@ -23,6 +23,7 @@ img {
 
 #familyPicture {
     width: 500px;
+   
 }
 
 .box>div {
@@ -67,8 +68,7 @@ img {
 
 .five {
     flex: 5;
-
-    width: 10px;
+   width: 10px;
     height: auto;
 
 }
@@ -80,3 +80,20 @@ img {
     height: auto;
 
 }
+.seven{
+    flex: 7;
+    width: 10px;
+    height: auto;
+}
+    aside{
+        font-family:'Times New Roman', Times, serif
+    }
+    h4{
+        text-decoration: underline;
+    }
+    .container{
+        display: flex;
+        
+    }
+    
+    
